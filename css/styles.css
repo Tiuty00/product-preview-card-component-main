@@ -4,36 +4,23 @@ body {
   display: flex;
   height: 100vh;
   justify-content: center;
-  width: 100%;
-}
-
-.img-1 {
-  width: 100%;
-  height: 450px;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-}
-
-.img-2 {
-  display: none;
-  width: 100%;
 }
 
 h1 {
   font-family: "Fraunces";
   font-weight: 700;
+  font-size: 2rem;
   line-height: 1;
   margin-bottom: 10%;
-  font-size: 2rem;
 }
 
 h2 {
   font-family: "Montserrat";
   font-weight: 500;
-  color: hsl(228, 12%, 48%);
-  margin-bottom: 9%;
-  letter-spacing: 0.3rem;
   font-size: 0.75rem;
+  color: hsl(228, 12%, 48%);
+  letter-spacing: 0.3rem;
+  margin-bottom: 9%;
 }
 
 h3 {
@@ -49,41 +36,60 @@ p {
   font-family: "Montserrat";
   font-weight: 500;
   font-size: 0.875rem;
-  line-height: 1.65;
   color: hsl(228, 12%, 48%);
+  line-height: 1.65;
   margin-bottom: 11%;
 }
 
 span {
-  color: hsl(228, 12%, 48%);
   font-family: "Montserrat";
   font-weight: 500;
   font-size: 0.875rem;
+  color: hsl(228, 12%, 48%);
+}
+
+i {
+  margin-right: 15px;
 }
 
 /* Container */
+
 .container-fluid {
   width: 600px;
   height: 450px;
 }
 
+/* IMG Box */
+
 .img-box {
   padding-right: 0;
   padding-left: 0;
-  height: 450px;
 }
 
+.img-1 {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.img-2 {
+  display: none;
+  width: 100%;
+}
+
+
+/* TEXT Box */
+
 .text-box {
-  background: #fff;
+  background-color: #fff;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   text-align: left;
   padding: 5.5% 5% 4% 5.5%;
-  max-height: 100%;
-  height: 450px;
 }
 
-/* price */
+/* Price */
+
 .pricing {
   display: flex;
   align-items: center;
@@ -97,85 +103,77 @@ span {
 .btn {
   font-family: "Montserrat";
   font-weight: 700;
+  font-size: 14px;
   color: #fff;
   background-color: hsl(158, 36%, 37%);
-  font-size: 14px;
   height: 48px;
   padding-top: 13px;
 }
 
 .btn:hover {
-  background-color: hsl(158, 36%, 20%);
   color: #fff;
+  background-color: hsl(158, 36%, 20%);
 }
 
-i {
-  margin-right: 15px;
-}
-
-/* attribution */
+/* Attribution */
 
 .attribution {
-  width: 100%;
-  text-align: center;
-  margin-top: 8%;
   font-family: "Fraunces";
   font-weight: 700;
+  margin-top: 8%;
 }
 
+/* Media */
+
 @media (max-width: 575px) {
-  p {
-    margin-bottom: 6.5%;
-  }
 
   h1 {
     margin-bottom: 5.5%;
-    font-size: 2rem;
   }
 
   h2 {
     margin-bottom: 4.5%;
-    letter-spacing: 0.3rem;
-    font-size: 0.75rem;
   }
-
-  h3 {
-    font-size: 2rem;
+  
+   p {
+    margin-bottom: 6.5%;
   }
-
+ 
+  /* Container Media */
+  
   .container-fluid {
     width: 343px;
     height: 611px;
     margin: 0 3%;
   }
-
-  img {
+  
+  /* IMG Box Media */
+  
+  .img-2 {
+    display: block;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 0;
   }
+  
+   .img-1 {
+    display: none;
+  }
 
+
+  /* TEXT Box Media */
+  
   .text-box {
     border-top-right-radius: 0;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     padding: 7.3% 7% 7%;
-    height: 100%;
   }
 
+  /* Price Media */
+  
   .pricing {
     margin-bottom: 6%;
   }
 
-  .img-box {
-    height: auto;
-  }
-
-  .img-1 {
-    display: none;
-  }
-
-  .img-2 {
-    display: block;
-  }
 }
