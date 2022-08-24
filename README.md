@@ -30,11 +30,10 @@ Users should be able to:
 ### Screenshot
 
 Dekstop view Screenshot
-(dekstop-view-screenshot.png)
-
+<img src=https://github.com/Tiuty00/product-preview-card-component-main/blob/main/dekstop-view-screenshot.png/>
 
 Mobile view Screenshot
-(mobile-view-screenshot.png)
+<img src=https://github.com/Tiuty00/product-preview-card-component-main/blob/main/mobile-view-screenshot.png width="400"/>
 
 
 ### Links
@@ -63,7 +62,7 @@ I like to improve the responsiveness of web sites. Improve the use of Bootstrap.
 
 ## Author
 
-- Website - Tommaso / Tiuty00 (https://www.your-site.com)](https://github.com/Tiuty00)
+- Website - Tommaso / Tiuty00 (https://github.com/Tiuty00)
 - Frontend Mentor - [@Tiuty00](https://www.frontendmentor.io/profile/Tiuty00)
 
 
