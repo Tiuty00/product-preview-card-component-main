@@ -30,11 +30,11 @@ Users should be able to:
 ### Screenshot
 
 Dekstop view Screenshot
-(./dekstop-view-screenshot.png)
+(dekstop-view-screenshot.png)
 
 
 Mobile view Screenshot
-(./mobile-view-screenshot.png)
+(mobile-view-screenshot.png)
 
 
 ### Links
