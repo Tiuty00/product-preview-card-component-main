@@ -115,12 +115,9 @@ i {
 
 /* attribution */
 .attribution {
-  position: fixed;
-  left: 0;
-  bottom: 0;
   width: 100%;
   text-align: center;
-  margin-bottom: 30px;
+  margin-top: 8%;
   font-family: "Fraunces";
   font-weight: 700;
 }
