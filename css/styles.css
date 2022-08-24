@@ -52,6 +52,10 @@ i {
   margin-right: 15px;
 }
 
+a {
+  text-decoration: none;
+  color: hsl(158, 36%, 37%);
+
 /* Container */
 
 .container-fluid {
@@ -118,8 +122,9 @@ i {
 /* Attribution */
 
 .attribution {
-  font-family: "Fraunces";
-  font-weight: 700;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 0.7rem;
   margin-top: 8%;
 }
 
