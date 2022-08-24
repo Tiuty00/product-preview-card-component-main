@@ -57,6 +57,10 @@ a {
   color: hsl(158, 36%, 37%);
 }
 
+a:hover {
+  color:hsl(158, 36%, 20%);
+}
+
 /* Container */
 
 .container-fluid {
